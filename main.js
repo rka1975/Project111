@@ -54,27 +54,27 @@ function gotResult(error, results){
         speak();
         if(results[0].label=="Peace")
         {
-            document.getElementById("update_emoji").innerHTML="&#128512";
+            document.getElementById("update_emoji").innerHTML="&#9996";
         }
         if(results[0].label=="Okay")
         {
-            document.getElementById("update_emoji").innerHTML="&#128532";
+            document.getElementById("update_emoji").innerHTML="&#128076";
         }
         if(results[0].label=="Thumbs Up")
         {
-            document.getElementById("update_emoji").innerHTML="&#128545";
+            document.getElementById("update_emoji").innerHTML="&#128077";
         }
         if(results[1].label=="Peace")
         {
-            document.getElementById("update_emoji2").innerHTML="&#128512";
+            document.getElementById("update_emoji2").innerHTML="&#9996";
         }
         if(results[1].label=="Okay")
         {
-            document.getElementById("update_emoji2").innerHTML="&#128532";
+            document.getElementById("update_emoji2").innerHTML="&#128076";
         }
         if(results[1].label=="Thumbs Up")
         {
-            document.getElementById("update_emoji2").innerHTML="&#128545";
+            document.getElementById("update_emoji2").innerHTML="&#128077";
         }
     }
 }
